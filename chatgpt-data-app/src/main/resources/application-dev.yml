@@ -60,7 +60,7 @@ chatglm:
       # 官网地址
       api-host: https://open.bigmodel.cn/
       # 官网申请 https://open.bigmodel.cn/usercenter/apikeys - 自己可申请
-      api-secret-key: 4d00226f242793b9c267a64ab2eaf5cb.aIwQNiG59MhSWJbn
+      api-secret-key: 570f7c5d289cdac2abdfdc562e39f3f.trqz1dH8ZK6ED7Pg
 
 # 微信公众号配置信息
 # originalid：原始ID
