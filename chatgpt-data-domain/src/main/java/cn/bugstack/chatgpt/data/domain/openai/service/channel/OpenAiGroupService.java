@@ -9,6 +9,6 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyEmitter
  */
 public interface OpenAiGroupService {
 
-    void doMessageResponse(ChatProcessAggregate chatProcess, ResponseBodyEmitter emitter) throws JsonProcessingException;
+    void doMessageResponse(ChatProcessAggregate chatProcess, ResponseBodyEmitter emitter) throws Exception;
 
 }

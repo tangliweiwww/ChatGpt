@@ -30,7 +30,7 @@ public class ChatGLMService implements OpenAiGroupService {
     protected OpenAiSession chatGlMOpenAiSession;
 
     @Override
-    public void doMessageResponse(ChatProcessAggregate chatProcess, ResponseBodyEmitter emitter) throws JsonProcessingException {
+    public void doMessageResponse(ChatProcessAggregate chatProcess, ResponseBodyEmitter emitter) throws Exception {
         // 1. 请求消息
         List<ChatCompletionRequest.Prompt> prompts = chatProcess.getMessages().stream()
                 .map(entity -> ChatCompletionRequest.Prompt.builder()
