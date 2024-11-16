@@ -23,7 +23,7 @@ wxpay:
     # 商户号
     mchid:
     # 回调地址
-    notify-url: http://你的地址.natapp1.cc/api/v1/mall/pay_notify
+    notify-url: https://3e5d4edf.r9.cpolar.cn/api/v1/mall/pay_notify
     # 商户API私钥路径
     private-key-path: cert/apiclient_key.pem
     # 商户证书序列号：openssl x509 -in apiclient_cert.pem -noout -serial
@@ -60,7 +60,7 @@ chatglm:
       # 官网地址
       api-host: https://open.bigmodel.cn/
       # 官网申请 https://open.bigmodel.cn/usercenter/apikeys - 自己可申请
-      api-secret-key: 570f7c5d289cdac2abdfdc562e39f3f.trqz1dH8ZK6ED7Pg
+      api-secret-key: 77e1015b04037920fdd0ccd95953f001.zTk4gPjQZRtB3ChW
 
 # 微信公众号配置信息
 # originalid：原始ID
@@ -77,8 +77,8 @@ spring:
   datasource:
     username: root
     password: 123456
-    url: jdbc:mysql://127.0.0.1:3306/openai?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.111.103:13306/openai?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&serverTimezone=UTC&useSSL=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
   hikari:
     pool-name: Retail_HikariCP
     minimum-idle: 15 #最小空闲连接数量
