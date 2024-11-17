@@ -7,6 +7,7 @@ import {GptVersion} from '../../constants'
 import {SessionConfig} from "@/types/chat";
 import { CSSProperties, useRef, useState } from 'react';
 
+//
 export function Action(props: {
     icon: JSX.Element;
     onClick?: () => void;
