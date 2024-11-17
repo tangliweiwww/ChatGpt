@@ -70,7 +70,7 @@ public class NoPayNotifyOrderJob {
                     eventBus.post(orderId);
                 }
             }
-            //
+
         } catch (Exception e) {
             log.error("定时任务，订单支付状态更新失败", e);
         }
